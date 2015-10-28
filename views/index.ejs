@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/style.css' />
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+
+  		<div class="container back-color-1">
+  			<div class="wrap-inner">
+  				<h1><%= title %></h1>
+    			<p>Welcome to Git Test Page</p>
+  			</div>
+  		</div>
+
+  		<div class="container back-color-2">
+  			<div class="wrap-inner">
+  				<h1>Git Test Page</h1>
+    			<p>Git의 기초 사용법을 테스트하기 위한 샘플화면</p>
+  			</div>
+  		</div>
+
+  		<div class="container back-color-3">
+  			<div class="wrap-inner">
+  				<h1>Git Test Page</h1>
+    			<p>Git와 Github 기초사용법을 익혀보자!</p>
+  			</div>
+  		</div>
+
+  	</div>
+
+  	<script type="text/javascript">
+  		$(document).ready(function() {
+         function setHeight() {
+            windowHeight = $(window).innerHeight();
+            var thirtypc = (30 * windowHeight) / 100;
+            thirtypc = parseInt(thirtypc) + 'px';
+
+            $('.container').css('min-height', windowHeight);
+            $('h1').css('margin-top', thirtypc);
+         };
+		  setHeight();
+		  
+		  $(window).resize(function() {
+		    setHeight();
+		  });
+		});
+  	</script> 
+  </body>
+</html>

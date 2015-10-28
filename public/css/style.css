@@ -1,0 +1,16 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0; margin: 0;
+}
+.wrap { position:relative; width:100%; }
+.container { position:relative; float:left; width: 100%;}
+.back-color-1{background: #999;}
+.back-color-2{background: #000;}
+.back-color-3{background: #555;}
+
+h1{ font-size: 5em; color: #fff; text-align:center;}
+p{font-size: 2em; color:#fff; text-align:center;}
+
+a {
+  color: #00B7FF;
+}
