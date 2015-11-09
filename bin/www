@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('10m_express_basic:server');
+var debug = require('debug')('express_basic:server');
 var http = require('http');
 
 /**
